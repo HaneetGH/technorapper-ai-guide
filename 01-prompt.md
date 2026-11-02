@@ -66,7 +66,19 @@ Do not upload wp-config.php.
 
 Hand over FTP only when you are ready for those paths to go live, and rotate the password afterwards if it was pasted into a chat. This repository does not contain a password.
 
-## 6. Ask for a report that can be published
+## 6. Measure the page visitors get
+
+Local Lighthouse and a plugin’s lab are not PageSpeed Insights. After the change is live and the edge cache is a miss:
+
+```text
+Re-run official PageSpeed Insights on https://example.com/
+mobile lab. Quote the report URL. Do not invent scores.
+Do not mix this lab with an earlier Lighthouse run as one chart.
+If LCP got worse, say so. Chrome UX Report is field data;
+if it says No Data, do not claim Core Web Vitals.
+```
+
+## 7. Ask for a report that can be published
 
 ```text
 Write the report from measurements you already have.

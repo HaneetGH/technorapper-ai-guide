@@ -44,7 +44,9 @@ These are theme and root files, not the database.
 | `wp-content/themes/covernews/inc/template-functions.php` | Page numbers include the word “Page”. |
 | `wp-content/themes/covernews/inc/hooks/hook-front-page-banner-exclusive-posts.php` | Ticker images get a real width and height. |
 
-The theme source in this playbook is the list, not the files. The private audit workspace holds the working copies. They are not part of this public repo.
+The CoverNews patches are listed so you can see what a first pass looks like. They are not in this public repo. When those patches were no longer enough, we stopped editing the parent and shipped a small custom theme: [technorapper-wp-theme](https://github.com/HaneetGH/technorapper-wp-theme). Upload that folder into `wp-content/themes/`, activate it, and leave CoverNews on disk until you are sure. Do not upgrade CoverNews in place if you still need the old files as fallback.
+
+The custom theme is GPL-2.0-or-later. This playbook stays MIT. Do not copy our AdSense client ID into your fork.
 
 ## What the database work covered
 
