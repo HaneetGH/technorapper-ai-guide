@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+*.sql
+*.sql.gz
+wp-config.php
+public_html/
+uploads/
+*.log
+error_log
+.DS_Store
