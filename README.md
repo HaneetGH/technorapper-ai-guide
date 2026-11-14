@@ -1,5 +1,7 @@
 # Repair a live WordPress site with AI
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/haneetgh-technorapper-ai-guide-tqj72w?v=9b35664297e8cf893eb1e17b6020fa13)](https://m8ven.ai/mcp/haneetgh-technorapper-ai-guide-tqj72w?s=readme)
+
 This is the public playbook from a weekend spent on [technorapper.com](https://technorapper.com): a technology site that has run since 2012.
 
 Copy it. Change the URL. Keep our passwords, database, and `wp-config.php` out of your repo.
